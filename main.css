@@ -3,7 +3,7 @@
   height: 100vh;
   grid-template-columns: repeat(4, 100px);
 
-  justify-content: space-between; //gorizontal_line
+  align-content: space-evenly; //vertical_line
 }
 
 .item-2 {
