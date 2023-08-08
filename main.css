@@ -2,7 +2,8 @@
   display: grid;
   height: 100vh;
   grid-template-columns: repeat(4, 25%);
-  justify-items: start;
+  justify-items: center;
+  align-items: center;
 }
 
 
