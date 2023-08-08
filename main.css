@@ -1,47 +1,10 @@
 .container {
   display: grid;
   height: 100vh;
-  grid-template-columns: 200px 1fr 1fr 1fr 1fr;
-  grid-template-rows:
-        80px
-        1fr
-        100px
-        [footer-e];
-  grid-gap: 20px 10px;
-  grid-template-areas:
-    "header header header header header"
-    "left content content content right"
-    "footer footer footer footer footer"
+  grid-template-columns: repeat(4, 25%);
+  justify-items: start;
 }
 
-@media screen and (max-width: 720px) {
-  .container {
-    grid-template-areas:
-      "footer footer footer footer footer"
-      "content content content right left"
-      "header header header header header"
-  }
-}
-
-.item-1 {
-  grid-area: header;
-}
-
-.item-2 {
-  grid-area: footer;
-}
-
-.item-3 {
-  grid-area: content;
-}
-
-.item-4 {
-  grid-area: left;
-}
-
-.item-5 {
-  grid-area: right;
-}
 
 
 
