@@ -6,6 +6,12 @@
   align-items: center;
 }
 
+.item-2 {
+  justify-self: stretch;
+}
 
+.item-11 {
+  align-self: stretch;
+}
 
 
